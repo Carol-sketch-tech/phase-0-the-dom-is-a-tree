@@ -1,0 +1,47 @@
+<!-- note
+ the method that is used to find the element we want in a html Dom rendered page is 
+ querySelector(selector) 
+ the slector in the paranthesis is the element that we want to find in the rendered page.
+ the selector is like the query string that is used to find things within an html rendered page.
+ teh selector should always be in a string ""and the string should always be in parenthesis.
+ -->
+
+ <!-- computer science version of a Tree.
+  the DOM acts like a tree.
+  the root of a tree is usually used to refer to  the top of a DOM.
+  and the leaves being the most nested html elements.
+   the DOM is like a tree upside down. -->
+
+
+   <!-- The DOM 
+     the DOM begins at <html>
+        <html> has subtrees <head> and <body>.
+             -->
+
+    <!-- finding html elements
+     n/b metadata for a node is class and id attributes.
+     the id and class attribute that make an elements metadata are useful in accessing a node 
+     the more specific the metadata the easier it is to find and retrive an elemnt in DOM
+     -->
+
+
+     <!--  FINDING A NODE 
+       methods that are used to find nodes either directly or in stages courtesy of the document obect. 
+       these are 
+       1. getElementByID()
+       2.getElementByClassName()
+       3. getElementByTagName()
+       these are listed in the order of most to least specific.
+        -->
+
+        <!-- document.getElementByID()
+         this is the quickest way to access a node but we should know a specific piece of information -its ID
+         this method can only return one element since CSS ids are expected to be unique -->
+
+
+         <!-- Finding a node without knowing anything about it 
+          
+         this is used when we dont have an id or a class name to use to find an element.
+          mix of different methids can be used to try and accomplish a goal take for instancce changing the contents of a 
+          cartain node.
+          -->
